@@ -1,0 +1,37 @@
+h1 {
+    color: yellowgreen;
+}
+body{
+    background-color: #001B79;
+}
+header{
+    
+    background-color: #1640D6;
+    text-align: center;
+    padding: 10px;
+    /* display: flexbox; */
+    width: auto;
+    height: auto;
+    
+}
+nav{
+    background-color: aliceblue;
+    
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 800px;
+    background-color: #ED5AB3;
+
+
+}
+li{
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #001B79;
+}
