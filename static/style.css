@@ -67,3 +67,22 @@ div.chatbar div{
     height: 400px;    
     float: none;
 }
+
+.output-text{
+    background-color: gray;
+    position: relative;
+    left: 1150px;
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid;
+    border-radius: 5px;
+}
+.input-text{
+    background-color: yellow;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid;
+    border-radius: 5px;
+
+}
