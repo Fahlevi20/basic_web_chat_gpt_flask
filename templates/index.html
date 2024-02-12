@@ -13,7 +13,7 @@
 </header>
 <div class="chat-screen">
     <div class="input-text">
-        hello
+        <p id="input">Hello</p>
 
     </div>
     <div class="output-text">
@@ -39,8 +39,9 @@
     
 </form>
     <div>
-        <button type="button " onclick="alert('successfully submit the question')">
-            send
+        <button type="button " onclick="myInput()"> Send
+            <p id="success">
+            </p>
 
         </button>
 
@@ -56,6 +57,27 @@
     </div> -->
 
 </div>
+
+<div>
+    <form>
+        <button type="button" id="test-button">
+            hello
+
+        </button>
+        
+    </form>
+</div>
+
+<script>
+    function myButton() {
+        document.getElementById('success').innerHTML='success'
+
+    }
+    function myInput(){
+        document.getElementById('input').innerHTML='yoo'
+    }
+
+</script>
 
 </body>
 </html>

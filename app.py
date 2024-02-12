@@ -6,6 +6,9 @@ app = Flask(__name__)
 def HomePage(name=None):
     
     return render_template('index.html',name=name)
+
+@app.route("/chat")
+def ChatAnswer()
     
 if __name__ == "__main__":
 
