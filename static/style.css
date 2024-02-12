@@ -86,3 +86,12 @@ div.chatbar div{
     border-radius: 5px;
 
 }
+
+input{
+    width: 1029px;
+    height: auto;
+    padding: 20px;
+    background-color: gray;
+    border: 1px groove ;
+    border-radius: 10px;
+}
